@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Bungee+Spice&family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+	background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+	font-family: "Barlow", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+	border-radius: 5px;
+	background-color: black;
+	margin-top: 30px;
+    border-radius: 10px;
+    border: 4px solid white;
+    padding: 20px 15px;
+	width: 620px;
+    gap: 20px;
+}
+
+section#status{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #056da1;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+section#Slots{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+	border-radius: 15px;
+	background-color: #FAFAFA;
+    padding: 15px 0;
+}
+
+#slot1, #slot2, #slot3{
+	background-size: 150px;
+	width: 150px;
+	height: 150px;
+}
+
+section#Gira{
+    padding: 25px 0;
+	border-radius: 5px;
+	text-align: center;
+	background-color: rgb(255, 11, 11);
+	color: black;
+	font-size: 25px;
+}
+
+section#Gira:hover{
+	background-color: #fa0678;
+}
+
+.a1{
+	background-image: url("./img/manzana.png");
+}
+.a2{
+	background-image: url("./img/limon.png");
+}
+.a3{
+    background-image: url("./img/naranja.png");
+}
+.a4{
+	background-image: url("./img/uvas.png");
+}
+.a5{
+	background-image: url("./img/pina.png");
+}
+.a6{
+	background-image: url("./img/sandia.png");
+}
+.a7{
+	background-image: url("./img/pera.png");
+}
+.a8{
+	background-image: url("./img/coco.png");
+}
+.a9{
+    background-image: url("./img/cereza.png");
+}
